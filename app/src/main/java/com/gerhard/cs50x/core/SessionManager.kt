@@ -15,8 +15,8 @@ class SessionManager @Inject constructor(
 ) {
 
     companion object {
-        const val RAPID_API_KEY = "RAPID_API_KEY"
-        const val RAPID_API_HOST = "RAPID_API_HOST"
+        const val RAPID_API_KEY = "TWITTER_API_KEY"
+        const val RAPID_API_HOST = "TWITTER_API_HOST"
     }
 
     private val masterKey = MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC)

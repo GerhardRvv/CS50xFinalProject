@@ -30,8 +30,8 @@ android {
                 "proguard-rules.pro"
             )
             buildConfigField("String", "TWITTER_BASE_URL", "${project.property("TWITTER_BASE_URL")}")
-            buildConfigField("String", "RAPID_API_KEY", "${project.property("RAPID_API_KEY")}")
-            buildConfigField("String", "RAPID_API_HOST", "${project.property("RAPID_API_HOST")}")
+            buildConfigField("String", "TWITTER_API_KEY", "${project.property("TWITTER_API_KEY")}")
+            buildConfigField("String", "TWITTER_API_HOST", "${project.property("TWITTER_API_HOST")}")
         }
 
         getByName("debug") {
@@ -43,8 +43,8 @@ android {
                 "proguard-rules.pro"
             )
             buildConfigField("String", "TWITTER_BASE_URL", "${project.property("TWITTER_BASE_URL")}")
-            buildConfigField("String", "RAPID_API_KEY", "${project.property("RAPID_API_KEY")}")
-            buildConfigField("String", "RAPID_API_HOST", "${project.property("RAPID_API_HOST")}")
+            buildConfigField("String", "TWITTER_API_KEY", "${project.property("TWITTER_API_KEY")}")
+            buildConfigField("String", "TWITTER_API_HOST", "${project.property("TWITTER_API_HOST")}")
         }
     }
 
