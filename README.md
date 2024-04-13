@@ -43,7 +43,7 @@
 #### Util
 - Utils `utils` directory, contain utility classes and testing data objects.
 - Extension utilities `UtilExtensions` class with functions to simplify and reuse value transformations.
-
+```
   +--------------------------------------------------------+
   |                       View Layer                       |
   |                                                        |
@@ -80,7 +80,7 @@
   |    +------------------------+      +------------------------+  |
   |                                                                |
   +----------------------------------------------------------------+
-
+```
 # Build
 
 - The app contains the usual `debug` and `release` build variants.
