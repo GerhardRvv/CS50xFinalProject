@@ -43,6 +43,9 @@
 #### Util
 - Utils `utils` directory, contain utility classes and testing data objects.
 - Extension utilities `UtilExtensions` class with functions to simplify and reuse value transformations.
+
+## Core Architecture
+This section outlines the core components of the application, including the data models, networking, and UI components.
 ```
   +--------------------------------------------------------+
   |                       View Layer                       |
@@ -87,9 +90,6 @@
 - Select `debug` to be able to launch into an emulator or test device.
 
 ### Project Structure and Files' Functions
-
-## Core Architecture
-This section outlines the core components of the application, including the data models, networking, and UI components.
 
 ### `api/model`
 - `Tweet.kt` - Defines the data model for a tweet.
