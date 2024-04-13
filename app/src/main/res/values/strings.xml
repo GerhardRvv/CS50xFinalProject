@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Twitter Search</string>
+    <string name="twitter_search_screen_title">Twitter User Search</string>
+    <string name="twitter_user_no_result">User not found</string>
+    <string name="twitter_search_screen_body">Enter user name to search for</string>
+    <string name="twitter_user_search_button">Search</string>
+    <string name="input_field_label">Screen Name</string>
+    <string name="user_details_header">User details</string>
+    <string name="user_details_name">Name</string>
+    <string name="user_details_screen_name">Screen name</string>
+    <string name="user_details_description">Description</string>
+    <string name="user_details_followers">Followers</string>
+    <string name="user_details_created_date">Account created on</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@+id/navigation_host"
+    app:startDestination="@id/searchUserFragment">
+
+    <fragment
+        android:id="@+id/searchUserFragment"
+        android:name="com.gerhard.cs50x.search.fragment.SearchUserFragment"
+        android:label="SearchUserFragment" >
+        <action
+            android:id="@+id/action_searchUserFragment_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailsFragment"
+        android:name="com.gerhard.cs50x.tweet.fragment.UserDetailsFragment"
+        android:label="UserDetailsFragment" >
+        <argument
+            android:name="args"
+            app:argType="com.gerhard.cs50x.tweet.fragment.UserDetailsFragmentNavArgs" />
+    </fragment>
+</navigation>

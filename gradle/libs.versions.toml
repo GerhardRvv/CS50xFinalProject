@@ -1,0 +1,91 @@
+[versions]
+agp = "8.3.1"
+kotlin = "1.9.0"
+hilt = "2.48"
+safeArgs = "2.7.7"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+hiltCompiler = "1.2.0"
+retrofit = "2.9.0"
+
+coil = "2.2.2"
+lifecycle = "2.7.0"
+compose = "1.8.2"
+composePreview = "1.6.5"
+composeMaterial = "1.6.5"
+composeUI = "1.6.5"
+square = "2.9.0"
+coroutines = "1.7.1"
+nav = "2.7.7"
+okhttp = "4.10.0" # Assuming a separate version for OkHttp
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.6.1" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.12.0" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycle" }
+
+coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "compose" }
+compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "composeUI" }
+compose-material = { group = "androidx.compose.material", name = "material", version.ref = "composeMaterial" }
+compose-ui-tool_preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "composePreview" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "composePreview" }
+material3 = { group = "androidx.compose.material3", name = "material3", version = "1.2.1" }
+
+security-crypto = { group = "androidx.security", name = "security-crypto", version = "1.0.0" }
+
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version = "1.0.0" }
+preference-ktx = { group = "androidx.preference", name = "preference-ktx", version = "1.2.1" }
+
+gson = { group = "com.google.code.gson", name = "gson", version = "2.10.1" }
+moshi-kotlin = { group = "com.squareup.moshi", name = "moshi-kotlin", version = "1.14.0" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.4.1" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hiltCompiler" }
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
+
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "nav" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "nav" }
+navigation-dynamic-features-fragment = { group = "androidx.navigation", name = "navigation-dynamic-features-fragment", version.ref = "nav" }
+
+mockito-core = { group = "org.mockito", name = "mockito-core", version = "4.8.0" }
+core-testing = { group = "android.arch.core", name = "core-testing", version = "1.1.1" }
+mockk = { group = "io.mockk", name = "mockk", version = "1.13.1" }
+truth = { group = "com.google.truth", name = "truth", version = "1.1.3" }
+test-rules = { group = "androidx.test", name = "rules", version = "1.5.0" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+hiltAndroid = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+androidxSafeArgs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "safeArgs" }
+
